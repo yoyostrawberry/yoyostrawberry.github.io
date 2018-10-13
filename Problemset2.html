@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maths puzzle</title>
+<style>
+body {
+    background-color: Pink;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 8px;
+    font-size: 30px;
+    font-style: italic;
+}
+</style>
+</head>
+<body>
+
+
+<h1>Maths Puzzle</h1>
+<img src="https://www.snoopy.co.jp/assets/img/common/footer_chara.png">
+<p>1+4=5</p>
+<p>2+5=12</p>
+<p>3+6=21</p>
+<p>5+8=?</p>
+<img src="https://peanutssports.snoopy.co.jp/assets/img/linestamp.png">
+
+
+
+
+<script>
+function guessInteger() {
+ var guess = document.getElementById('idddd').value
+ if (guess == "") {
+  alert("Empty!");
+ }
+ else {
+ guess_int = parseInt(guess);
+ if (guess == 45) {
+ alert("Right!");
+ }
+ else {
+ alert("Wrong!");
+ }
+}
+}
+
+
+ </script>
+
+
+<body>
+<form name=‘guessForm’>
+ <input name = “guessValue” id="idddd" class=“inputField”>
+</form>
+<button class="button" onclick="guessInteger()">Submit an integer</button>
+
+
+<div id=‘demo’> Take a guess and good luck!! </div>
+<img src="https://www.snoopy.co.jp/jp50th/assets/img/top/img_chara_05.png">
+</body>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+ <li><a href="index.html">Home page</a>
+ <li><a href="Maths.html">Maths</a>
+</ul>
+<!-- Main content -->
+
+</body>
+</html>
